@@ -46,7 +46,7 @@
   Created two models with Data augmentation 1) RandomFlip & Random Zoom 2) Random Rotation, Random Contrast and Random Translation. Both the models showed the sign of underfitting with 53-47% training accuracy. The validation accuracy was also around the same range.
 - Conclusion 4 
 
-  Due to class imbalance in the data, I used Augmentor to create 500 images for each class. After trying multiple models with different CNN architectures, one model achieved 86% training accuracy and 80% validation accuracy. However, the model's prediction accuracy on the test dataset was only about 47%. This low accuracy could be attributed to the limited availability of data.
+  Due to class imbalance in the data, I used Augmentor to create 500 images for each class. After trying multiple models with different CNN architectures, simple model with with 4 convolutional layers having Maxpooling with dropout, and two fully connected layer gave achieved 86% training accuracy and 80% validation accuracy. However, the model's prediction accuracy on the test dataset was only about 47%. This low accuracy could be attributed to the limited availability of data.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
